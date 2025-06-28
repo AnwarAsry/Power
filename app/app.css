@@ -6,12 +6,16 @@
 }
 
 body {
-  /* height: 100vh; */
-  margin-top: 130px;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: auto 1fr;
 }
 
-body .content-container {
-  grid-column: 2 / span 5;
+body .content-grid-container {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 1fr [col-start] repeat(5, 1fr) [col-end] 1fr;
+}
+
+.content-grid-container .content {
+  grid-area: col;
 }
