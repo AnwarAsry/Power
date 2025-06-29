@@ -15,7 +15,6 @@ body {
   display: grid;
   grid-template-columns: 1fr [col-start] repeat(5, 1fr) [col-end] 1fr;
 }
-
 .content-grid .content {
   grid-area: col;
 }
