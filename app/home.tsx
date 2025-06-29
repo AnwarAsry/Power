@@ -2,7 +2,7 @@ import { IoIosSearch } from "react-icons/io";
 import type { Route } from "./+types/home";
 import logo from "../assets/power-logo.svg";
 import { FiShoppingCart, FiUser } from "react-icons/fi";
-import { IoLocationOutline, IoMenu } from "react-icons/io5";
+import { IoHeartOutline, IoLocationOutline, IoMenu } from "react-icons/io5";
 import { Headset } from "lucide-react";
 import { AmountIndicator } from "components/cart/AmountIndicator";
 
@@ -26,46 +26,58 @@ export default function Home() {
             <a className="px-3 first:border-r first:border-gray-300 transition hover:underline" href="/">Privatkund</a>
             <a className="px-3 first:border-r first:border-gray-300 transition hover:underline" href="/foretag">Företagskund</a>
           </div>
+          <a className="px-3 flex items-center gap-2" href="">
+            <span>Mina favoriter</span>
+            <IoHeartOutline className="size-5 text-[#f86701]" />
+          </a>
         </div>
-        <div className="h-19.5 px-3 lg:px-6 flex items-center lg:rounded-lg bg-[#333]">
+        <div id="header" className="pb-4 md:pb-0 flex items-center lg:rounded-lg bg-[#333]">
           {/* Menu box */}
-          <div className="py-1 px-2 flex items-center rounded-md hover:cursor-pointer transition hover:bg-[#1f1f1f]">
+          <div id="header-menu" className="my-4 mx-2 py-1 px-2 flex items-center rounded-md hover:cursor-pointer transition hover:bg-[#1f1f1f]">
             <IoMenu className="size-9 text-white" />
           </div>
           {/* Logo box */}
-          <div className="w-32 h-full mx-6">
-            <a href="/">
-              <img className="w-32 h-full" src={logo} alt="" />
-            </a>
-          </div>
+          <a id="header-logo" className="h-auto" aria-label="Till Powers startsida" href="/">
+            <img className="w-32 h-full" loading="lazy" width={300} height={70} src={logo} alt="Power logan" />
+          </a>
           {/* Search box */}
-          <div className="w-full max-w-120 py-2 px-4 flex rounded-full bg-white">
-            <input className="w-full pr-1 border-none outline-none" type="text" placeholder="Sök efter vad du letar efter" />
-            <IoIosSearch className="size-7 text-[#f86701]" />
-          </div>
+          <form id="header-search" className="relative mx-4" action="#">
+            <div className="flex rounded-full bg-white">
+              <input className="flex-grow p-2 pl-4 pr-12 border-none outline-none" type="text" placeholder="Sök efter vad du letar efter" />
+              <button className="w-6 h-full absolute top-0 right-5" type="submit">
+                <IoIosSearch className="size-7 text-[#f86701]" />
+              </button>
+            </div>
+          </form>
           {/* Buttons box */}
-          <div className="flex flex-1 justify-end gap-4">
-            <a className="py-2 px-3 flex items-center gap-3 relative rounded-md bg-black text-white transition hover:cursor-pointer">
-              <span className="text-sm hidden xl:block">Hitta Butik</span>
-              <IoLocationOutline className="size-5 text-[#f86701]" />
-            </a>
-            <a className="py-2 px-3 flex items-center gap-3 relative rounded-md bg-black text-white transition hover:cursor-pointer">
-              <span className="text-sm hidden xl:block">MyPOWER</span>
-              <FiUser className="size-5 text-[#f86701]" />
-            </a>
-            <a className="py-2 px-3 flex items-center gap-3 relative rounded-md bg-[#f86701] text-white transition hover:cursor-pointer hover:bg-[#df5d01]">
-              <span className="text-sm hidden xl:block">Kundvagn</span>
-              <FiShoppingCart className="size-5" />
-              <AmountIndicator />
-            </a>
+          <div id="header-buttons" className="h-full flex items-center">
+            <div className="px-2">
+              <a className="py-2 px-3 flex items-center gap-3 relative rounded-md bg-black text-white transition hover:cursor-pointer">
+                <span className="text-sm hidden xl:block">Hitta Butik</span>
+                <IoLocationOutline className="size-5 text-[#f86701]" />
+              </a>
+            </div>
+            <div className="px-2">
+              <a className="py-2 px-3 flex items-center gap-3 relative rounded-md bg-black text-white transition hover:cursor-pointer">
+                <span className="text-sm hidden xl:block">MyPOWER</span>
+                <FiUser className="size-5 text-[#f86701]" />
+              </a>
+            </div>
+            <div className="px-2 pr-6">
+              <a className="py-2 px-3 flex items-center gap-3 relative rounded-md bg-[#f86701] text-white transition hover:cursor-pointer hover:bg-[#df5d01]">
+                <span className="text-sm hidden xl:block">Kundvagn</span>
+                <FiShoppingCart className="size-5" />
+                <AmountIndicator />
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </header>
-    <div className="content-grid-container">
+    <main className="content-grid">
       <div className="content">
         <p className="bg-red-500">Welcome to the improved Power clone!</p>
       </div>
-    </div>
+    </main>
   </>;
 }
