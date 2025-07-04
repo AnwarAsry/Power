@@ -1,0 +1,303 @@
+[
+  {
+    "id": "3776159",
+    "sku": "4002516794967",
+    "mpn": "GUARDM1RD",
+    "gtin13": "4002516794967",
+    "name": "Miele Guard M1 dammsugare, röd",
+    "brand": "Miele",
+    "category": "Hem & Hushåll > Dammsugare",
+    "product_url": "https://www.power.se/hushall/dammsugare/miele-guard-m1-dammsugare-roed/p-3776159/",
+    "description": "Kraftfull dammsugare med energieffektiv motor och hög filtrering. Passar perfekt för hem med husdjur. Levereras med tillbehör och AirClean-filter.",
+    "images": [
+      "https://media.power-cdn.net/images/h-97fe3915d364f40add8f8798768d80b7/products/3776159/3776159_1_1200x1200_t_g.webp"
+    ],
+    "price": {
+      "current_price": 1790,
+      "currency": "SEK",
+      "previous_price": 2490,
+      "discount": 700,
+      "price_valid_until": "2025-06-22T21:59:59Z"
+    },
+    "availability": "InStock",
+    "stock_status": "I lager online",
+    "condition": "New",
+    "store_availability": [
+      {
+        "store_name": "POWER Barkarby",
+        "address": "Enköpingsvägen 27, 17738 Järfälla",
+        "distance_km": 4.4,
+        "opening_hours": "lördag 10 - 18",
+        "availability_status": "I lager",
+        "pickup_time": "Hämta om 30 minuter"
+      },
+      {
+        "store_name": "POWER Mall of Scandinavia",
+        "address": "Stjärntorget 2, 16979 Solna",
+        "distance_km": 5,
+        "opening_hours": "lördag 10 - 21",
+        "availability_status": "I lager",
+        "pickup_time": "Hämta om 30 minuter"
+      },
+      {
+        "store_name": "POWER Täby",
+        "address": "Attundafältet 2, 18334 Täby",
+        "distance_km": 9.9,
+        "opening_hours": "lördag 10 - 18",
+        "availability_status": "I lager",
+        "pickup_time": "Hämta om 30 minuter"
+      }
+    ],
+    "shipping": {
+      "shipping_rate": 99,
+      "currency": "SEK",
+      "shipping_destination": "SE"
+    },
+    "return_policy": {
+      "applicable_country": "SE",
+      "return_window_days": 60,
+      "return_fees": "Free",
+      "return_methods": ["ReturnByMail", "ReturnInStore"]
+    },
+    "technical_specifications": {
+      "color": "Röd",
+      "power": "890 W",
+      "cable_length_m": 7.5,
+      "operating_radius_m": 11,
+      "dust_bag": "HyClean Pure CO",
+      "filter_type": "AirClean",
+      "weight_net_kg": 7.301,
+      "weight_gross_kg": 8.452,
+      "dimensions_mm": {
+        "net": "284 x 496 x 227 mm",
+        "gross": "593 x 383 x 323 mm"
+      },
+      "energy_label": {
+        "efficiency": "G",
+        "dust_re_emission_class": "A",
+        "dust_pickup_carpet": "C",
+        "dust_pickup_hardfloor": "A",
+        "sound_level_db": 77
+      },
+      "bag_capacity_l": 4.5,
+      "noise_level_db": 77,
+      "tube": "Telescopic",
+      "hose_type": "Ergonomic handle with accessory clip",
+      "accessories": [
+        "Golvmunstycke",
+        "Fognmunstycke",
+        "Möbelmunstycke",
+        "Dammborste"
+      ],
+      "filters": ["AirClean-filter"],
+      "features": [
+        "Automatisk kabelvinda",
+        "Kompatibel med Miele originalpåse",
+        "Ergonomiskt handtag",
+        "Sugkraftsreglage",
+        "Parkeringstillbehör",
+        "Komfortgrepp"
+      ]
+    },
+    "ratings": {
+      "average_rating": 4.5,
+      "rating_count": 32,
+      "breakdown": {
+        "5_stars": 20,
+        "4_stars": 9,
+        "3_stars": 2,
+        "2_stars": 1,
+        "1_stars": 0
+      }
+    },
+    "reviews": [
+      {
+        "author": "TjaT",
+        "verified_buyer": true,
+        "rating": 4,
+        "title": "Hyvä imuri",
+        "review_text": "Johdon automaattikelauksen on vähän ikävä, jos vahingossa osuu nappiin. Muuten laite toimii erinomaisesti.",
+        "review_date": "2025-06-05T00:00:00Z",
+        "helpful_votes": 0,
+        "unhelpful_votes": 0
+      },
+      {
+        "author": "Esakko1966",
+        "verified_buyer": true,
+        "rating": 5,
+        "title": "Imuri vuosiksi",
+        "review_text": "Laatuimuri ilman turhaa sälää. Lisävarusteet mukana ja tehokas puhdistus, erityisesti Miele-pussit toimivat hyvin. Powerin asiakaspalvelu toimi loistavasti.",
+        "review_date": "2025-05-18T00:00:00Z",
+        "helpful_votes": 1,
+        "unhelpful_votes": 0
+      }
+    ]
+  },
+  {
+    "id": "3142986",
+    "sku": "3142986",
+    "mpn": "TU65CU6905KXXC",
+    "gtin13": "8806095285764",
+    "eprel_id": "1763319",
+    "name": "Samsung 65\" 4K UHD LED TV TU65CU6905KXXC",
+    "brand": "Samsung",
+    "description": "4K HDR-TV med fantastisk bildkvalitet, slimmad design och 4K-uppskalning",
+    "category": "TV & Ljud > TV",
+    "product_url": "https://www.power.se/tv-och-ljud/tv/samsung-65-4k-uhd-led-tv-tu65cu6905kxxc/p-3142986/",
+    "images": [
+      "https://media.power-cdn.net/images/h-3815e0bcfe5ffea2f5d7dbb88fff1034/products/3142986/3142986_8_600x600_t_g.webp"
+    ],
+    "price": {
+      "current_price": 6490,
+      "currency": "SEK",
+      "previous_price": 9990,
+      "discount": 3500,
+      "price_valid_until": "2025-06-22T21:59:59Z",
+      "campaign_period": {
+        "start": "2025-06-09T00:00:00Z",
+        "end": "2025-06-22T21:59:59Z"
+      }
+    },
+    "availability": "InStock",
+    "stock_status": "I lager online",
+    "condition": "New",
+    "store_availability": [
+      {
+        "store_name": "POWER Barkarby",
+        "address": "Enköpingsvägen 27, 17738 Järfälla",
+        "distance_km": 4.4,
+        "opening_hours": "Open until 20:00",
+        "availability_status": "I lager",
+        "pickup_time": "Hämta om 30 minuter"
+      },
+      {
+        "store_name": "POWER Mall of Scandinavia",
+        "address": "Stjärntorget 2, 16979 Solna",
+        "distance_km": 5,
+        "opening_hours": "Open until 21:00",
+        "availability_status": "Levereras till varuhus",
+        "pickup_time": "Hämta om 2-5 vardagar"
+      },
+      {
+        "store_name": "POWER Täby",
+        "address": "Attundafältet 2, 18334 Täby",
+        "distance_km": 9.9,
+        "opening_hours": "Open until 20:00",
+        "availability_status": "Levereras till varuhus",
+        "pickup_time": "Hämta om 2-5 vardagar"
+      }
+    ],
+    "shipping": {
+      "shipping_rate": 499,
+      "currency": "SEK",
+      "shipping_destination": "SE"
+    },
+    "return_policy": {
+      "applicable_country": "SE",
+      "return_window_days": 60,
+      "return_fees": "Free",
+      "return_methods": ["ReturnByMail", "ReturnInStore"]
+    },
+    "energy_label": {
+      "label_image": "https://media.power-cdn.net/images/energyLabels/indicators/2024/AG/G.svg",
+      "energy_class": "G",
+      "hdr_class": "G",
+      "consumption_normal": "105 kWh",
+      "consumption_hdr": "161 kWh"
+    },
+    "technical_specifications": {
+      "release_year": 2024,
+      "screen": {
+        "size_inches": 65,
+        "size_cm": 163,
+        "resolution": "2160p (4K/UHD)",
+        "panel_technology": "LED",
+        "format": "16:9",
+        "refresh_rate": "60 Hz",
+        "hdr_support": ["HDR10+"],
+        "4k_upscaling": true
+      },
+      "smart_tv": {
+        "is_smart": true,
+        "os": "Tizen",
+        "apps": [
+          "Amazon Prime Video",
+          "Apple TV",
+          "Disney+",
+          "Max",
+          "Netflix",
+          "Spotify",
+          "ViaPlay",
+          "YouTube",
+          "Webbläsare"
+        ]
+      },
+      "tuners": {
+        "tv_receiver": true,
+        "dual_tuner": false,
+        "types": ["DVB-C", "DVB-T2"]
+      },
+      "gaming_features": ["Auto Low Latency Mode (ALLM)", "HGiG"],
+      "connectivity": {
+        "ethernet": 1,
+        "hdmi_total": 3,
+        "usb_total": 1,
+        "rf_inputs": 2,
+        "hdmi_2_0": 3,
+        "hdmi_versions": ["HDMI ARC", "HDMI eARC", "HDMI-CEC", "v 2.0"],
+        "usb_playback": true,
+        "usb_recording": false,
+        "ci_slot": true,
+        "optical_audio_out": 1
+      },
+      "wireless": {
+        "wifi": "Wi-Fi 5",
+        "bluetooth": "Bluetooth 5.2"
+      },
+      "audio": {
+        "speaker_count": 2,
+        "total_output": "20 W"
+      },
+      "physical": {
+        "color": "Svart",
+        "dimensions": {
+          "without_stand": "80 x 144.8 x 84.6 cm",
+          "with_stand": "185 x 164.0 x 104.2 cm"
+        },
+        "depth_with_stand_cm": 30.85,
+        "depth_without_stand_cm": 8.05,
+        "height_with_stand_cm": 91.58,
+        "height_without_stand_cm": 84.62,
+        "net_weight_kg": 19.4,
+        "gross_weight_kg": 28,
+        "vesa_mount": "400x300 mm"
+      },
+      "included": {
+        "remote": "Smart fjärrkontroll"
+      }
+    },
+    "ratings": {
+      "average_rating": 4.2,
+      "rating_count": 55,
+      "breakdown": {
+        "5_stars": 48,
+        "4_stars": 7,
+        "3_stars": 6,
+        "2_stars": 3,
+        "1_stars": 3
+      }
+    },
+    "reviews": [
+      {
+        "author": "Anna aastroem",
+        "verified_buyer": true,
+        "rating": 5,
+        "title": "Älska Powers service",
+        "review_text": "Kanon, snabb leverans, alla funktioner man viii ha",
+        "review_date": "2025-01-09T00:00:00Z",
+        "helpful_votes": 0,
+        "unhelpful_votes": 0
+      }
+    ]
+  }
+]
